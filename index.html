@@ -35,29 +35,133 @@
         </li>
       </div>
     </div>
-    <!-- Modal -->
-<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Modal -->
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="register">Register for WordCamp Conference</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Register for WordCamp Conference</h5>
+
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Hurry!</strong> Early bird registration ends in two days.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+        <h4 class="display">Basic Info</h4>
+    <br>
+        <form>
+
+  <div class="form-group">
+    <label for="formGroupExampleInput">Name:</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Email:</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlSelect1">Job Role</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>WordPress Developer</option>
+      <option>Web Developer</option>
+      <option>UX Designer</option>
+      <option>WordPress Consultant</option>
+      <option>Software Engineer</option>
+      <option>Student</option>
+      <option>Intern</option>
+    </select>
+  </div>
+
+ <hr>
+<h4 class="display">Which Topics Interest You Most?</h4>
+ <br>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    WordPress Plugins
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    PHP
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    CSS and JavaScript
+  </label>
+</div>
+<hr>
+<h4 class="display">Payment Info</h4>
+ <div class="form-row">
+    <div class="col-7">
+      <label for="form-row">Card Number:</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="col">
+      <label for="col-md-6">Zip Code:</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="col">
+      <label for="col-md-6">CVV:</label>
+      <input type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-row align-items-center">
+    <div class="col-sm-8 my-3">
+      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Expiration Date:</label>
+      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>1-January</option>
+        <option value="1">2-Feruary</option>
+        <option value="2">3-March</option>
+        <option value="3">4-April</option>
+        <option value="4">5-May</option>
+        <option value="4">6-June</option>
+        <option value="4">7-July</option>
+        <option value="4">8-August</option>
+        <option value="4">9-September</option>
+        <option value="4">10-October</option>
+        <option value="4">11-November</option>
+        <option value="4">12-December</option>
+
+      </select>
+    </div>
+     <div class="form-row align-items-center">
+    <div class="col-auto my-1">
+      
+      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>2023</option>
+        <option value="1">2024</option>
+        <option value="2">2025</option>
+        <option value="3">2026</option>
+         <option value="4">2027</option>
+          <option value="5">2028</option>
+      </select>
+    </div>
+
+
+</div>
+</form>
+
+      <div class="modal-footer justify-content-between">
+  <button type="button" class="btn btn-primary">Register</button>
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
     </div>
   </div>
 </div>
-<!--/Modal-->
-  </div>
 </nav>
+ 
+
 <!--/navbar-->
 <!--jumbotron-->
 <div class="jumbotron jumbotron-fluid bg-success">
