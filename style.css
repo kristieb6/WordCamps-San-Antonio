@@ -1,7 +1,8 @@
 body {
     background-color: lavenderblush;
   }
-  
+
+
 h3 {
   text-align: center;
 }
@@ -26,7 +27,17 @@ p.mb-1 {
 li.list-group-item {
   background-color: oldlace ;
 }
+#schedule {
+  font-style: italic;
+  color: black;
+  font-family: serif;
+}
 
+#speakers{
+  font-style: italic;
+  font-family: serif;
+  color: black;
+}
 
 
 /*Added Inline CSS to index.html page*/
