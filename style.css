@@ -29,41 +29,4 @@ li.list-group-item {
 
 
 
-
-/* All of this is practice*/
-
-/*this changes the inside font */
-
-a.dropdown-item {
-  color: black;
- 
-}
-/*changes the inside of the box*/
-div.dropdown-menu {
-  
-  background-color: green;
-  
-  }
-
-/*This changes only the text in the jumbotron*/
-
-div.jumbotron{
-  color: black;
-  font-family: !important;            
-}
-
-/*this changes the text color for all h4's*/
-
-
-
-
-
-/* make sure to add the # because it is an id
-changed the font and the background color
- !!!!! Need  to figure out how to add an image */
-
-  jumbotron {
-    background-image: url ("C:\Users\krist\OneDrive\Pictures\0039.jpg");
-    background-size: cover;
-  }
   
