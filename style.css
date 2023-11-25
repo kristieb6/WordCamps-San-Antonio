@@ -38,7 +38,10 @@ li.list-group-item {
   font-family: serif;
   color: black;
 }
-
+div.jumbotron-jumbotron-fluid {
+  background-image: url(C:\Users\krist\OneDrive\Pictures\Umbrella Girl1920X1080.jpg);
+  background-size: cover;
+}
 
 /*Added Inline CSS to index.html page*/
   
